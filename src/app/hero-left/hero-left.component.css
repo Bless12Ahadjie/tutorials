@@ -1,0 +1,144 @@
+.first-txt{
+    color: #3E434A;
+    font-size: 22px;
+
+}
+.first-txt span{
+    color: #2C0C59;
+    font-size: 30px;
+}
+.second-txt{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--Black, #242A31);
+    font-size: 56px;
+    width: 36rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+}
+.stack{
+    color: #FABD03;
+
+}
+
+.last-txt{
+    color: #c2c2c2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 34rem;
+    height: 4rem;
+
+}
+.name-span{
+    font-size: 36px;
+    font-weight: 400;
+    color: #FABD03;
+}
+.container{
+    margin-top: 1rem;
+    margin-right: 16rem;
+    width: 26rem;
+    position: relative;
+    z-index: 3;
+    
+}
+.btn{
+    display: flex;
+    padding: 6px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 46px;
+    font-weight: 700;
+    background: #FABD03;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid #FABD03;
+    margin-top: 2rem;
+}
+.btn2{
+    display: flex;
+    padding: 6px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 46px;
+    font-weight: 700;
+    background: #fff;
+    color: #3E434A;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid #FABD03;
+    margin-top: 2rem;
+}
+.button-holder{
+    display: flex;
+    width: 20rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* @media screen and (max-width:480px){
+    .profile{
+        display: none;
+    }
+    .Hero-wrapper{
+        flex-direction: column-reverse;
+        width:auto;
+        padding: 0 4rem  ;
+
+    }
+    .second-txt{
+        font-size: 36px;
+        width: 25rem;
+    }
+    .last-txt{
+        width: 20px;
+        height: 30rem;
+        font-size: 26px;
+
+    }
+    .LeftCointainer{
+        margin-top: -12rem;
+        width: 22rem;
+    }
+    .name-span{
+        font-size: 19px;
+    }
+}
+@media screen and (max-width:840px){
+    .profile{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 17rem;
+        width: 17rem;
+        margin-left: 23rem;
+        margin-top: -20rem;
+    }
+    .Hero-wrapper{
+        flex-direction: column;
+        width:auto;
+        padding: 0 5rem 0 5rem;
+
+    }
+    .second-txt{
+        font-size: 36px;
+        width: 25rem;
+    }
+    .last-txt{
+        width: 20px;
+        height: 30rem;
+        font-size: 26px;
+
+    }
+    .LeftCointainer{
+        margin-top: -10rem;
+        width: 18rem;
+    }
+    .name-span{
+        font-size: 19px;
+    }
+
+} */
