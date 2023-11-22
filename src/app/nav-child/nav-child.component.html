@@ -1,0 +1,14 @@
+<main class="main-container">
+    <h1>Post Method Trial</h1>
+    @for (value of getValue; track value.userId) {
+        <div class="container">
+            <p class="title">{{value.title}}</p>
+            <p class="detail">{{ value.body }}</p>
+        </div>
+      } 
+      @empty {
+        <p> Nothing to show yet</p>
+      }
+ 
+
+</main>

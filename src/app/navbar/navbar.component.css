@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    padding-left: 65px;
+    height: 67px;
+    flex-shrink: 0;
+    background: #E8EDFD;
+}
+.logo{
+    width: 106px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-right: 102px;
+}
+.list{
+    list-style: none;
+    display: flex;
+}
+.list li{
+    margin-right: 18px;
+}
+.list li:last-child{
+    margin-right: 0;
+}
