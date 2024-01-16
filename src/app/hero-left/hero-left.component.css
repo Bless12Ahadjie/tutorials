@@ -1,12 +1,4 @@
-.first-txt{
-    color: #3E434A;
-    font-size: 22px;
 
-}
-.first-txt span{
-    color: #2C0C59;
-    font-size: 30px;
-}
 .second-txt{
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -79,66 +71,42 @@
     justify-content: space-between;
 }
 
-/* @media screen and (max-width:480px){
-    .profile{
-        display: none;
-    }
-    .Hero-wrapper{
-        flex-direction: column-reverse;
-        width:auto;
-        padding: 0 4rem  ;
-
+@media only screen and (max-width: 600px) {
+    .name-span{
+        font-size: 20px;
+        font-weight: 400;
+     
     }
     .second-txt{
-        font-size: 36px;
-        width: 25rem;
-    }
-    .last-txt{
-        width: 20px;
-        height: 30rem;
-        font-size: 26px;
+        font-size: 32px;
+        width: 20rem;
 
     }
-    .LeftCointainer{
-        margin-top: -12rem;
-        width: 22rem;
+    .last-txt{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        width: 20rem;
+        height: 6rem;
+    
     }
-    .name-span{
-        font-size: 19px;
+    .container{
+        width: 100%;
+        margin: 0 0 5rem 0;
     }
-}
-@media screen and (max-width:840px){
-    .profile{
+   }
+
+   /* @media screen and (max-width: 900px) {
+    .container{
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        height: 17rem;
-        width: 17rem;
-        margin-left: 23rem;
-        margin-top: -20rem;
-    }
-    .Hero-wrapper{
         flex-direction: column;
-        width:auto;
-        padding: 0 5rem 0 5rem;
-
+        justify-content: center;
+        align-items: center;
+        margin-left: 6rem;
+        width: 28rem;  
     }
     .second-txt{
-        font-size: 36px;
-        width: 25rem;
+        font-size: 42px;
+        text-align: center;
     }
-    .last-txt{
-        width: 20px;
-        height: 30rem;
-        font-size: 26px;
-
-    }
-    .LeftCointainer{
-        margin-top: -10rem;
-        width: 18rem;
-    }
-    .name-span{
-        font-size: 19px;
-    }
-
 } */

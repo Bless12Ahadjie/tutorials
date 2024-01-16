@@ -6,11 +6,11 @@
     
     display: inline-flex;
     width: 15rem;
-    height: 65.726px;
+    height: 79px;
     padding: 6.997px 9.329px;
     align-items: center;
     gap: 9.329px;
-    padding: 10px;
+    padding: 1rem;
     flex-shrink: 0;
     border-radius: 4.664px;
     background: #121212;
@@ -26,10 +26,11 @@
     }
     .fName{
         color: var(--Black, #fff);
-        font-size: 14.329px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
-        line-height: 150%; /* 13.993px */
+        line-height: 120%; 
+        margin-top: 3px;
     }
     
     .sName{
@@ -38,65 +39,26 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        margin-top: -10px;
     }
     .follow-btn{
         background-color: #F7D046;
-        border-radius: 12px;
+        border-radius: 10px;
         font-size: 12px;
         padding: 2px 12px;
         cursor: pointer;
         border: none;
+        margin-top: -1px;
     
     }
-    @media screen and (max-width:480px){
-        .card{
-         margin-top: -35rem;
-         margin-left: 16rem;
-         width: 125px;
-         height: 50px;
-        }
-        .dp{
-        width: 2rem;
-        height: 2rem;
-        margin-right: 0rem;
-        }
-        .fName{
-            font-size: 10px;
-        }
-        .sName{
-            font-size: 7.5px;
-        
-        }
-        .follow-btn{
-            border-radius: 12px;
-            font-size: 8px;
-            padding: 2px 12px;
-        
+    @media only screen and (max-width: 600px) {
+        main{
+          display: none;
         }
     }
-    @media screen and (max-width:840px){
-        .card{
-            margin-top: -16rem;
-            margin-left: 38rem;
-            width: 125px;
-            height: 50px;
-           }
-           .dp{
-           width: 2rem;
-           height: 2rem;
-           margin-right: 0rem;
-           }
-           .fName{
-               font-size: 10px;
-           }
-           .sName{
-               font-size: 7.5px;
-           
-           }
-           .follow-btn{
-               border-radius: 12px;
-               font-size: 8px;
-               padding: 2px 12px;
-           
-           }
+    
+    @media screen and (max-width: 900px) {
+        main{
+            display: none;
+        }
     }

@@ -2,12 +2,14 @@
     <app-logo></app-logo>
 
     <ul class="list">
-        <li>Home</li>
-        <li>About Me</li>
-        <li>Services</li>
+        <li><a href="">Home</a> </li>
+        <li> <a href="">Services</a></li>
+        <li> <a href="">About me</a></li>
+        <li> <a href="">Contact</a></li>
     </ul>
+    <app-humburger class="hum"></app-humburger>
 
-    <button class="btn" type="button"> Contact Me </button>
+    <button (click)="contactMe()" class="btn" type="button"> Contact Me </button>
           
 
 </nav>

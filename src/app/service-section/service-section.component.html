@@ -1,0 +1,22 @@
+
+<main class="section">
+ <div class="serve">
+    <p class="header">Services</p>
+    <p class="p">Explore my portfolio to discover how I can help you transform your digital aspirations into reality</p>
+     
+  </div>
+
+    <div class="wrapper">
+  @for (card of cardData; track card.id) {
+    <p-card id="card" [style]="{'height': '250px','width':'340px','padding':'8% 4%'}" header="{{ card.title }}">
+      <p id="card-txt" [style]="{'padding-top':'1rem','color': 'var(--7-e-7373, #7E7373)'}" class="m-1">
+        {{ card.description }}
+      </p>
+  </p-card>
+  
+  } @empty {
+    <P>No services to display yet</P>
+  }
+ </div>
+ 
+</main>

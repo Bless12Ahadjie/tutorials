@@ -9,7 +9,7 @@ nav{
 }
 .logo{
     width: 106px;
-    height: 28px;
+    height: 22px;
     flex-shrink: 0;
     margin-right: 102px;
 }
@@ -29,6 +29,10 @@ nav{
 .list li:last-child{
     margin-right: 0;
 }
+.list li a{
+    text-decoration: none;
+    color: var(--Black, #242A31) ;
+}
 .btn{
     display: flex;
     padding: 6px 16px;
@@ -42,3 +46,38 @@ nav{
     cursor: pointer;
     border: solid #FABD03;
 }
+.hum{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    nav{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        max-width:75rem;
+        height:5rem;
+        padding: 1rem 0;
+        overflow: hidden;
+    }
+
+    .logo{
+        display: none;
+        width: 12px;
+        height: 12px;
+        flex-shrink: 0;
+        margin-right: 0;
+    }
+    .btn{
+        display: none;
+    }
+    .hum{
+        display: inline;
+        width: 38px;
+    }
+    .list{
+        display: none;
+    }
+
+  }

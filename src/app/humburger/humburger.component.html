@@ -1,0 +1,11 @@
+<div class="hamburger-menu" (click)="toggleMenu()">
+    <mat-icon>menu</mat-icon>
+  </div>
+  
+  <div class="menu-items" [ngClass]="{'show-menu': isMenuOpen}">
+    <a href="">Home</a>
+    <a href="">Services</a>
+    <a href="">About me</a>
+    <a href="">Contact</a>
+  </div>
+  

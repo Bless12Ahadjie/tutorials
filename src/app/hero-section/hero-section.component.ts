@@ -12,5 +12,5 @@ import { FollowBubbleComponent } from '../follow-bubble/follow-bubble.component'
   styleUrl: './hero-section.component.css'
 })
 export class HeroSectionComponent {
-
+   
 }

@@ -1,5 +1,14 @@
 .Logo{
     object-fit: cover;
-    width: 7rem;
+    width: 5rem;
     height: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .Logo{
+        object-fit: cover;
+        width:3rem;
+        height: 3rem;
+        margin-left: 1rem;
+    }
 }

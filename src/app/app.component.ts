@@ -4,12 +4,19 @@ import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RadialComponent } from './radial/radial.component';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
-
+import { ServiceSectionComponent } from './service-section/service-section.component';
+// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet,NavbarComponent,RadialComponent,
+  imports: [
+    CommonModule, 
+    RouterOutlet,
+    NavbarComponent,
+    RadialComponent,
     HeroSectionComponent,
+    ServiceSectionComponent,
+    // BrowserAnimationsModule,
   
   ],
   templateUrl: './app.component.html',
