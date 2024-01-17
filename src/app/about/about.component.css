@@ -1,0 +1,29 @@
+.container{
+
+}
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100vw;
+    max-width:75rem;
+}
+.top-txt{
+    color: var(--Black, #242A31);
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.bottom-txt{
+    color: var(--7-e-7373, #7E7373);
+    width: 80%;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px auto;
+    line-height: 150%; 
+}
