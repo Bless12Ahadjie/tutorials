@@ -5,6 +5,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { RadialComponent } from './radial/radial.component';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { ServiceSectionComponent } from './service-section/service-section.component';
+import { FooterComponent } from './footer/footer.component';
 // import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { ServiceSectionComponent } from './service-section/service-section.compo
     RadialComponent,
     HeroSectionComponent,
     ServiceSectionComponent,
+    FooterComponent,
     // BrowserAnimationsModule,
   
   ],

@@ -1,7 +1,7 @@
 .container{
     display: flex;
     margin-left: 6rem;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 @media only screen and (max-width: 600px) {
  .container{

@@ -4,6 +4,6 @@ import { ServiceSectionComponent } from './service-section/service-section.compo
 
 export const routes: Routes = [
     {'path': '' , component: HomepageComponent},
-    // {'path': 'service' , component: ServiceSectionComponent},
+
     
 ];
