@@ -68,14 +68,13 @@
 }
 @media only screen and (max-width: 600px) {
     .contain{
-        row-gap: 3rem;
-        column-gap: 5rem;
+       flex-direction: column;
     }
     .years{
         margin-left: -20px;
     }
     #only{
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
     .top-txt{
         font-size: 16x;
