@@ -69,6 +69,7 @@
 @media only screen and (max-width: 600px) {
     .contain{
         row-gap: 3rem;
+        column-gap: 5rem;
     }
     .years{
         margin-left: -20px;
