@@ -1,5 +1,5 @@
 .container{
-
+    margin-top: 15rem;
 }
 .wrapper{
     display:flex;
@@ -29,6 +29,8 @@
 }
 .contain{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 7rem;
 }
@@ -44,9 +46,14 @@
     font-weight: 700;
     font-size: 20px;
     width: 6rem;
+    margin-left: -1rem;
+}
+#only{
+    margin-top: 0.7rem;
+    margin-left: 0.5rem;
 }
 .bottom-yrs:last-child{
-    margin-top: 0.7rem;
+    /* margin-top: 0.7rem; */
 }
 .years{
     display: flex;
@@ -58,4 +65,19 @@
 .clients{
     display: flex;
     flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px) {
+    .contain{
+        row-gap: 3rem;
+    }
+    .years{
+        margin-left: -20px;
+    }
+    .top-txt{
+        font-size: 16x;
+
+    }
+    .bottom-yrs{
+        font-size: 13px;
+    }
 }
