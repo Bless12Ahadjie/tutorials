@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RadialComponent } from '../radial/radial.component';
 import { HeroSectionComponent } from '../hero-section/hero-section.component';
 import { ServiceSectionComponent } from '../service-section/service-section.component';
+import { AboutComponent } from '../about/about.component';
 
 @Component({
   selector: 'app-homepage',
@@ -10,7 +11,8 @@ import { ServiceSectionComponent } from '../service-section/service-section.comp
   imports: [CommonModule,
             RadialComponent,
             HeroSectionComponent,
-            ServiceSectionComponent
+            ServiceSectionComponent,
+            AboutComponent,
 
   ],
   templateUrl: './homepage.component.html',
